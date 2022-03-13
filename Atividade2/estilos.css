@@ -1,0 +1,75 @@
+/*
+    Base de estilos
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Helvetica, Arial,sans-serif;
+    color: #fff;
+}
+
+#container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+
+}
+
+#Logo{
+    height:50px;
+    background-color: #4D77FF;
+    text-align: center;
+    padding-top: 20px;
+}
+   
+footer{
+    padding-top: 10px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1B1A17;   
+}
+
+/*
+    
+*/
+
+section{
+    width: 80%;
+}
+
+nav{
+    background-color: #1C658C;
+    padding: 8px;
+}
+nav a{
+    display: inline;
+    padding-left: 2px;
+    border-left: solid #fff 2px;
+
+}
+nav a:hover{
+    color: aqua;
+}
+
+section{
+    background-color: #398AB9;
+    margin: 0 auto;
+
+}
+
+section h2{
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+section p{
+    padding: 15px;
+}
+
+section img{
+    width: 90%;
+    padding: 5%;
+}
