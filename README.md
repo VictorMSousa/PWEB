@@ -1,2 +1,2 @@
 # PWEB
-  [x]Atividade 2
+  * Atividade 2 :heavy_check_mark:
