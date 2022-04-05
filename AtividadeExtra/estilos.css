@@ -1,0 +1,41 @@
+.cores{
+    width: 600px;
+    height: 600px;
+}
+
+@media(max-width:1920px){
+    .cores{
+        background-color:yellow;
+    }
+}
+
+@media(max-width:1366px){
+    .cores{
+        background-color:purple;
+    }
+}
+
+@media(max-width:1080px){
+    .cores{
+        background-color: brown;
+    }
+}
+
+@media(max-width:1024px){
+    .cores{
+        background-color:pink;
+    }
+}
+
+@media(max-width:780px){
+    .cores{
+        background-color:brown;
+    }
+}
+
+
+@media(max-width:420px){
+    .cores{
+        background-color:green;
+    }
+}
