@@ -1,0 +1,95 @@
+#container{
+   background: #B2B1B9;
+}
+
+header{
+    background-color: #6D8299;
+}
+
+#navegador{
+    margin: 0px;
+    border: solid red 2px;
+}
+
+#Titulo{
+    color: #D9CAB3;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 auto;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: larger;
+    color: #D9CAB3 ;
+    padding: 3px;
+}
+
+.noticias{
+    display: grid;
+
+}
+#img-principal{
+    height: 90%;
+    width: 100%;
+}
+
+#noticias-principal{
+    padding: 2%;
+    background-color: #C8C6C6;
+    margin: 2%;
+}
+
+.Noticia-Resumo{
+    height: 10%;
+}
+
+
+
+.noticias{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.noticia-box{
+    background-color: #f1f1f1;
+    width: 20%;
+    height: 40%;
+    margin: 1%;
+    border: 5px solid white ;
+}
+
+.img-noticia{
+        width: 100%;
+}
+
+.text-noticias{
+    background-color: #383838;
+    height: 20%;
+    color: white;
+}
+
+.text-noticias a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 105%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
