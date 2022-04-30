@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+
+    <!-- referenciando CSS-->
+    <link rel="stylesheet" href="estilos.css">
+
+    
+    <!-- referenciando JS-->
+    <script src="scriptes.js"></script>
+</head>
+<body>
+    <!-- Inicio do container-->
+
+    <div id="container">
+        <header id="cabecalho">
+            Atividade 6 : Media
+        </header>            
+        <!-- INICIO DO FORMULARIO-->
+        <form id="formulario"">
+
+            <!-- NOME DO ALUNO-->
+            <div>
+                <label>Nome</label>
+                <input type="text" id="nome" >
+            </div>
+            <!-- NOTAS-->
+            <div>
+                <label>Nota 1</label>
+                <input type="text" id="nota1">
+            </div>
+            <div>
+                <label">Nota 2</label>
+                <input type="text" id="nota2">
+            </div>
+            <div>
+                <label>Nota 3</label>
+                <input type="text" id="nota3">
+            </div>
+
+              <!-- MEDIA FINAL-->
+            <div>
+                <label for="Media">Media</label>
+                <input type="text" id="Media" disabled>
+            </div>
+
+            <div>
+                <button type="button" onclick="CalcMedia()"> CALCULAR</button>
+            </div>
+        </form>  
+            <!-- FIM DO FORMULARIO-->
+    </div>
+     <!-- FIm do container-->
+</body>
+</html>
