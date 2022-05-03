@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="estilos.css">
+        
+</html>
+<body>
+    <h2>Escolha Papel Pedra ou Tesoura</h2>
+    <select id="opcao">
+        <option onchange="Selecao()" value="Pedra">Pedra</option>
+        <option onchange="Selecao()"  value="Papel">Papel</option>
+        <option onchange="Selecao()"  value="Tesoura">Tesoura</option>
+    </select>
+    
+    <button onclick="Selecao()">Jogar</button>
+
+
+    
+    <script src="Scrip.js"></script>
+</body>
+
+</html>
