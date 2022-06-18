@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joao Victor Mendes</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="estilos.css">
+    <!--BootStrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div>
+
+        <header class="container-fluid text-center conta  style="border: 1px solid red ">
+
+            <img id="perfil-Imagem" src="Imagens/Perfil.jpg">
+            <h1 class="display-1"><strong>Olá, Me chamo João Victor</strong> </h>
+
+        </header>
+
+        <!-- INICIO RESUMO-->
+        <div id="Resumo-Geral">
+
+            <div id="resumo">
+
+                <div id="Titulo-SobreMim">
+
+                    <h2 class="display-3"><strong>Sobre Mim</strong></h2>
+
+                </div>
+    
+                 <div>              
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                      </p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- FIM RESUMO-->
+
+        <!-- INCIO CONHECIMENTO-->
+            <div class="row" id="Conhecimento">
+
+                <div id="Titulo-conhecimento"class="col-12">
+                    <h2 class="display-3"><strong>Conhecimentos</strong></h2>
+                </div>
+
+                <div class="col-4 p-2">
+                    <ul>
+                        <li>
+                            <img class="min-vw-15"  src="Imagens/logo-Html.png"> <strong>HTML</strong>
+                        </li>
+                        <li>
+                            <img class="min-vw-15"  src="Imagens/logo-Css.png"> <strong>CSS</strong>
+                        </li>
+                        <li>
+                            <img class="min-vw-15"  src="Imagens/logo-JavaScript.png"> <strong>JAVASCRIPT</strong>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4 p-2">
+                    <ul>
+                        <li>
+                           <img class="min-vw-15"  src="Imagens/logo-C.png"> <strong>C</strong> 
+                        </li>
+                        <li>
+                            <img class="min-vw-15"  src="Imagens/logo-C2.png"> <strong>C#</strong>
+                        </li>
+                        <li>
+                            <img class="min-vw-15"  src="Imagens/logo-Java.png"> <strong>JAVA</strong>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4 p-2">
+                    <ul>
+                        <li>
+                            <img class="min-vw-15"  src="Imagens/logo-Python.png"> <strong>PYTHON</strong>
+                        </li>
+                    </ul>
+                </div>
+    
+            
+            </div>
+
+        <!-- INICIO PROJETOS-->
+        <div class="row"  id="Projetos">
+
+            <div id="titulo-Projetos"class="col-12" >
+                <h2 class="display-3"><strong>Projetos</strong></h2>
+            </div>
+
+            <div class="col text-center p-5 rounded" id="projetos-exibição">
+
+                <div class="d-flex flex-row">
+                    <div class="projetos-item rounded"><img onmouseover="ativaEscrita()" class="Projeto-img-nada" src="Imagens/Projeto-nada-para-ver.png"> <span class="Projeto-Nada">Nada para ver aqui...</span> </div>
+                    <div class="projetos-item rounded"><img class="Projeto-img-nada" src="Imagens/Projeto-nada-para-ver.png"> <span class="Projeto-Nada">Nada para ver aqui...</span> </div>
+                    <div class="projetos-item rounded"><img class="Projeto-img-nada" src="Imagens/Projeto-nada-para-ver.png"> <span class="Projeto-Nada">Nada para ver aqui...</span></div>
+                </div>
+                
+                <div class="d-flex flex-row">
+                    <div class="projetos-item rounded"><img class="Projeto-img-nada" src="Imagens/Projeto-nada-para-ver.png"><span class="Projeto-Nada">Nada para ver aqui...</span></div>
+                    <div class="projetos-item rounded"><img class="Projeto-img-nada" src="Imagens/Projeto-nada-para-ver.png"><span class="Projeto-Nada">Nada para ver aqui...</span></div>
+                    <div class="projetos-item rounded"><img class="Projeto-img-nada" src="Imagens/Projeto-nada-para-ver.png"><span class="Projeto-Nada">Nada para ver aqui...</span></div>
+                </div>
+              
+            </div>
+        <!-- FIM RESUMO-->
+
+        <div id="Contato-geral" class="p-5">
+
+            <div id="Contato">
+
+                <div id="Titulo-Contato">
+
+                    <h2 class="display-3"><strong>Contato</strong></h2>
+
+                </div>
+    
+                <form class="p-4">
+                    <label class="form-label" for="">Email</label>
+                    <input type="email" name="Email" class="form-control" placeholder="Endereco@Exemplo.com">
+
+                    <label class="form-label" for="">Mensagem</label>
+                    <textarea class="form-control" rows="10"> Olá, me chamo... </textarea>
+                    <input class="btn btn-primary m-2" onsubmit="Semback()" onclick="Semback()    " type="submit">
+                    
+                </form>                
+            </div>
+
+            <img class="none" id="Contato-imagem" src="Imagens/Laboon.png" alt="">
+
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+/* PERFIL */
+header{
+    padding: 5%;
+    background-color: #242F9B;
+    background-image: url("Imagens/Perfil-backgroud.png");
+    background-size: 5%;
+    background-blend-mode: overlay;
+    color: white;
+}
+
+#perfil-Imagem{
+    width: 25%;
+    border-radius: 50%;
+}
+
+/*Corpo-sobreMim*/
+
+#Resumo-Geral{
+    background-color: #15133C;
+    color: #7D1E6A;
+    padding: 1%;
+}
+
+
+#Resumo-Geral p{
+    padding: 3%;
+}
+
+#Conhecimento{
+    background-color: #3A5BA0;
+    padding: 1%;
+}
+
+#Conhecimento p{
+    padding: 3%;
+}
+
+
+
+/*Logos*/
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.6em;
+}
+
+li{
+    margin: 5%;
+    border-bottom: 2px solid white;
+    color: white;
+    text-align: left;
+}
+
+.logo{
+    width: 15%;
+}
+
+#Brook-welcome{
+    width: 15%;
+}
+
+#Projetos{
+    background-color: #1F4690;
+}
+
+#titulo-Projetos{
+    padding: 2%;
+}
+
+#projetos-exibição{
+   border: 2px solid #3A5BA0;
+  margin:  2%;
+}
+
+.projetos-item{
+    border: 2px solid #1363DF;
+    width: 50%;
+    margin: 5px;
+    padding:6%;
+    color: white;
+    font-size: 200%;
+
+}
+.Projeto-img-nada{
+    width: 100%;
+    padding: 0px;
+    animation: alternate;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(-60px);
+	}
+	50% {
+		transform: translatey(-40px);
+	}
+	0% {
+		transform: translatey(0px);
+	}
+}
+
+#Contato-geral{
+    background-color: black;
+}
+#Contato{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    width: 50%;
+}
+
+#Contato-imagem{
+    float: right;
+    padding-left: 10%;
+    display: none;
+}
+
+@media screen and (min-width: 1690px) {
+    #Contato-imagem {
+      display: block;
+
+    }
+    .min-vw-15:hover{
+        width: 20%;
+      }
+  }
+
+  @media screen and (max-width: 1200px) {
+    #Contato {
+        width: 100%;
+    }
+  }
+
